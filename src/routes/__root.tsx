@@ -69,16 +69,20 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <head>
         <HeadContent />
         <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
         <meta name="theme-color" content="#4f46e5" />
         <meta
           name="apple-mobile-web-app-status-bar-style"
           content="black-translucent"
         />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-        ></meta>
+        <meta name="theme-color" content="#4f46e5" />
+
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="application-name" content="Clipchamp" />
+
         <title>Meu PWA</title>
       </head>
       <body>
